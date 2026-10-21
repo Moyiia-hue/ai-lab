@@ -22,3 +22,19 @@
 # 5. （选做）用 len() 打印清单里一共有几件商品。
 #
 # 运行方式：在 VS Code 终端里输入  python list_loop_practice.py
+prices=[23,45,78,43]
+print(prices)
+print(prices[0])
+print(prices[-1])
+
+total=0
+for p in prices:
+    total=total+p
+    print(p)
+print("总计:",total)
+
+item=[["apple",2,45],["banana",3,20],["pine",5,10]]
+for i in item:
+    print(i[0],i[1]*i[2])
+n=len(item)
+print("一共有",n,"种水果")
