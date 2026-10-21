@@ -6,3 +6,8 @@ venv/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# 与学习无关的本地文件夹
+.claude/
+sea_station/
+_design_system/

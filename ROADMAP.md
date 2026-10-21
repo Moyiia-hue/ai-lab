@@ -56,5 +56,4 @@
 
 ## 进度记录
 
-- 2026-10-17：装好 Python、Git、VS Code，建好 GitHub 仓库 Moyiia-hue/ai-lab。练习 shopping_total.py：学会 print、变量、乘法；正在学列表和 for 循环。
-- 2026-10-21：shopping_total.py 能运行，但只写了单个商品的变量和乘法，列表、函数、for 循环、if 四个要求还没做；log.md 还没填过内容；仓库还没有 commit，也没关联 GitHub 远程仓库。今天布置：第一次 commit + push、列表/for 热身（list_loop_practice.py）、补完 shopping_total.py 要求 1–3。
+- 2026-10-21（第 1 天）：环境就绪（Python、Git、VS Code），完成第一次 commit 并 push 到 Moyiia-hue/ai-lab 的 main 分支；会用 print、变量、乘法。今天学列表和 for 循环（list_loop_practice.py），然后补完 shopping_total.py 要求 1–3。
