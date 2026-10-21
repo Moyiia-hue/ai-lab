@@ -8,9 +8,17 @@
 #
 # 运行方式：在 VS Code 终端里输入  python shopping_total.py
 
-name="苹果"
-price=5
-count=3
-print(name,price,count)
-subtotal=price*count
-print("小计",subtotal)
+item=[["apple",2,56],["banana",3,45],["pine",5,20]]
+def xiaoji(a,b):
+    return a*b
+total=0
+for i in item:
+    result=xiaoji(i[1],i[2])
+    print(i[0],result)
+    if result>100:
+        print("贵")
+    else:
+        print("便宜")
+    total=total+result
+print("总价",total)
+
